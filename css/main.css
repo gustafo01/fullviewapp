@@ -1,0 +1,418 @@
+body {
+    font-family: 'Gill Sans MT';
+    color: #26272d;
+    font-size: 16px;
+}
+
+button,
+button:hover,
+button:focus {
+	outline: none;
+	border: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+    margin: 0;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+p { 
+    margin: 0;
+	color: #8c8f94;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	color: #26272d;
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.header {
+    background: #8c8f94 url("../img/background.jpg") no-repeat center top / cover;
+    padding-top: 44px;
+}
+
+.burger {
+    margin-right: 30px;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__item:not(:nth-child(3)) {
+    margin-right: 40px;
+}
+
+.menu__link {
+    transition: 0.3s;
+}
+
+.menu__link:hover {
+    color: #9aa1ae;
+}
+
+.logo {
+    text-align: center;
+    transition: 0.3s;
+}
+
+.logo:hover {
+    opacity: 0.8;
+}
+
+.btn {
+    padding: 10px 24px;
+    background-color: #267df4;
+    border-radius: 30px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #2544f3;
+    color: #fff;
+    box-shadow: 0px 0px 65px -11px rgba(0,0,0,0.4);
+}
+
+.offer-btn::before {
+    content: '';
+    display: block;
+    background: url('../img/apple-Icon.png');
+    width: 17px;
+    height: 20px;
+    margin-right: 14px;
+}
+
+.news {
+    text-align: center;
+}
+
+.header-title {
+    font-size: 62px;
+    margin: 110px 0 38px;
+}
+
+.header-text {
+    font-size: 20px;
+    color: #8c8f94;
+    max-width: 800px;
+    margin-bottom: 64px;
+}
+
+.ghost-btn {
+    padding: 10px 24px;
+    border-radius: 30px;
+    border: 1px solid #26272d;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.ghost-btn:hover {
+    color: #26272d;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 0px 65px -11px rgba(0,0,0,0.4);
+}
+
+.video-btn {
+    width: 206px;
+}
+
+.video-btn::before {
+    content: '';
+    display: block;
+    background: url('../img/play-Icon.png');
+    width: 10px;
+    height: 10px;
+    margin-right: 14px;
+}
+
+.app-screen-header {
+    content: '';
+    background: url('../img/iphone-header.png') no-repeat top center;
+    display: block;
+    width: auto;
+    height: 456px;
+    margin: 54px 0 0 28px;
+    transition: 0.3s;
+}
+
+.app-screen-header:hover {
+    transform: scale(1.03) ;
+}
+
+.specs {
+    padding-top: 120px;
+}
+
+.spec__titile {
+    margin: 40px 0 40px;
+}
+
+.spec__text {
+    font-size: 18px;
+    width: 510px;
+}
+
+.spec__text:first-of-type {
+    margin-bottom: 34px;
+}
+
+.offer {
+    padding-top: 100px;
+}
+
+.app-screen-section {
+    content: '';
+    display: block;
+    width: 110%;
+    max-width: 700px;
+    height: 650px;
+    background: url('../img/iphone-section.png')no-repeat center center / contain;
+    margin: -68px 0 0 -86px;
+    transition: 0.3s;
+}
+
+.app-screen-section:hover {
+    transform: scale(1.03) ;
+}
+
+.offer__title {
+    margin-bottom: 70px;
+}
+
+.offer__text {
+    font-size: 20px;
+}
+
+.offer__text:first-of-type {
+    margin-bottom: 42px;
+}
+
+.offer__btns {
+    margin-top: 70px;
+}
+
+.try-btn {
+    width: auto;
+    margin-right: 20px;
+}
+
+.try-btn::after {
+    content: '';
+    display: block;
+    background: url('../img/arrow-Icon.png') no-repeat center top;
+    width: 13px;
+    height: 14px;
+    margin-left: 50px;
+}
+
+.more-btn {
+    padding: 10px 24px;
+    border: 1px solid #26272d;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.more-btn:hover {
+    background-color: #2544f3;
+    border-color: #2544f3;
+    color: #fff;
+    box-shadow: 0px 0px 65px -11px rgba(0,0,0,0.4);
+}
+
+.location {
+    padding-top: 80px;
+}
+
+.location__title {
+    width: 300px;
+    margin-bottom: 60px;
+}
+
+.location__text {
+    font-size: 20px;
+}
+
+.location__text:first-of-type {
+    margin-bottom: 30px;
+}
+
+.location-partners {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    margin: 64px 0 24px;
+}
+
+.location-partners__link:first-of-type {
+    margin-right: 35px;
+}
+
+.location__image {
+    content: '';
+    background: url('../img/world-map.png') no-repeat center center;
+    width: 630px;
+    height: 416px;
+    margin-left: 48px;
+    transition: 0.3s;
+}
+
+.location:hover .location__image {
+    transform: scale(1.03) ;
+}
+
+.footer {
+    padding: 230px 0 210px;
+}
+
+.footer-text {
+    margin: 30px 0 30px;
+}
+
+.download-image img {
+    transition: 0.3s;
+}
+
+.download-image img:hover {
+    transform: scale(1.03);
+}
+
+.footer__item:not(:last-of-type) {
+    margin-bottom: 14px;
+}
+
+.footer__item_title {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.footer__link {
+    color: #8c8f94;
+    transition: 0.3s;
+}
+
+.footer__link:hover {
+    color: #26272d;
+}
+
+@media (max-width: 1200px) {
+    .app-screen-section {
+        margin: -30px 0 0 -50px;
+    }
+    .btn {
+        padding: 10px 16px;
+    }
+    .spec__text {
+        width: auto;
+    }
+    .location__image {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .location {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    .logo {
+        display: block;
+        margin-bottom: 26px;
+    }
+    .order-md-one {
+        order: -1;
+    }
+    .specs {
+        padding-top: 80px;
+    }
+    .spec:first-of-type {
+        margin-bottom: 50px;
+    }
+    .app-screen-section {
+        margin: 0;
+    }
+    .offer {
+        padding-top: 40px;
+    }
+    .location {
+        padding-top: 70px;
+    }
+    .location-partners__wrap {
+        margin-bottom: 60px;
+    }
+    .footer {
+        padding: 100px 0 90px;
+    }
+    .logo_footer {
+        display: inline;
+    }
+}
+
+@media (max-width: 768px) {
+    .location__image {
+        background-size: contain;
+    }
+    .app-screen-section {
+        height: 500px;
+    }
+    .menu {
+        display: none;
+    }
+    .margin-top-sm {
+        margin-top: 30px;
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .header-title {
+        font-size: 50px;
+    }
+    .app-screen-header {
+        height: 300px;
+        width: 90%;
+        background-size: cover;
+        margin: 30px 0 0 24px;
+    }
+    .app-screen-section {
+        height: 260px;
+        margin: 0;
+        width: auto;
+    }
+    .offer__title {
+        margin-top: 40px;
+    }
+    .try-btn::after {
+        margin-left: 10px;
+    }
+    .location-partners__link:first-of-type {
+        margin-right: 25px;
+    }
+    .location__image {
+        height: 200px;
+    }
+    .download-image img {
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
