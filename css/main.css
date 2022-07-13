@@ -179,7 +179,6 @@ a {
 .app-screen-section {
     content: '';
     display: block;
-    width: 110%;
     max-width: 700px;
     height: 650px;
     background: url('../img/iphone-section.png')no-repeat center center / contain;
@@ -342,8 +341,14 @@ a {
     .specs {
         padding-top: 80px;
     }
+    .spec {
+        text-align: center;
+    }
     .spec:first-of-type {
         margin-bottom: 50px;
+    }
+    .row {
+        text-align: center;
     }
     .app-screen-section {
         margin: 0;
@@ -351,8 +356,15 @@ a {
     .offer {
         padding-top: 40px;
     }
+    .offer__btns {
+        justify-content: center;
+    }
     .location {
         padding-top: 70px;
+        text-align: center;
+    }
+    .location__title {
+        margin: 0 auto 60px;
     }
     .location-partners__wrap {
         margin-bottom: 60px;
